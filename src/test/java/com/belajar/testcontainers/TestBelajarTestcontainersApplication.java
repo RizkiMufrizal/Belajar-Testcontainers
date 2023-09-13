@@ -24,7 +24,7 @@ import java.math.BigDecimal;
 public class TestBelajarTestcontainersApplication {
 
     static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>(
-            "postgres:15-alpine"
+            "postgres:alpine"
     );
 
     @DynamicPropertySource
